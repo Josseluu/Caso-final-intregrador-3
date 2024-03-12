@@ -27,7 +27,7 @@ class Organismo {
 
     public void reproducirse() {
         if (this.estadoReproductivo) {
-            // Lógica para la reproducción
+
             System.out.println(this.nombre + " se está reproduciendo.");
         }
     }
@@ -48,7 +48,7 @@ class Planta extends Organismo {
     }
 
     public void polinizar() {
-        // Lógica para la polinización
+
         System.out.println(this.nombre + " está siendo polinizada.");
     }
 }
@@ -59,7 +59,7 @@ class Animal extends Organismo {
     }
 
     public void cazar(Organismo organismo) {
-        // Lógica para la caza
+
         System.out.println(this.nombre + " está cazando a " + organismo.nombre + ".");
     }
 }
