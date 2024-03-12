@@ -8,11 +8,11 @@ public class Gestion_de_usuarios_y_simulaciones {
     private static final Map<String, String> actividadesRegistradas = new HashMap<>();
 
     public static void main(String[] args) {
-        // Registrar usuarios
+
         usuariosRegistrados.put("investigador1", "contrasena1");
         usuariosRegistrados.put("investigador2", "contrasena2");
 
-        // Iniciar sesión
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese su nombre de usuario:");
         String usuario = scanner.nextLine();
@@ -22,7 +22,7 @@ public class Gestion_de_usuarios_y_simulaciones {
         if (autenticar(usuario, contrasena)) {
             System.out.println("Inicio de sesión exitoso.");
 
-            // Mostrar opciones del simulador
+
             while (true) {
                 System.out.println("\n--- Menú ---");
                 System.out.println("1. Iniciar simulación");

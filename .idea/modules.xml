@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Analisis avanzado/Analisis avanzado.iml" filepath="$PROJECT_DIR$/Analisis avanzado/Analisis avanzado.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Caso-final-intregrador-3.iml" filepath="$PROJECT_DIR$/.idea/Caso-final-intregrador-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gestion de usuarios y simulaciones/Gestion de usuarios y simulaciones.iml" filepath="$PROJECT_DIR$/Gestion de usuarios y simulaciones/Gestion de usuarios y simulaciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modelado de entidades/Modelado de entidades.iml" filepath="$PROJECT_DIR$/Modelado de entidades/Modelado de entidades.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Simulador de dinamicas poblacionales/Simulador de dinamicas poblacionales.iml" filepath="$PROJECT_DIR$/Simulador de dinamicas poblacionales/Simulador de dinamicas poblacionales.iml" />
     </modules>
   </component>
 </project>
